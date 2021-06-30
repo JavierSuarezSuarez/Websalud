@@ -1,0 +1,120 @@
+@media screen {
+
+/*-----------------------------Estilos Generales------------------------------*/
+/*Linea para quitar espacios intermedios*/
+*{margin: 0; padding: 0;}
+
+.main_html {
+  background: url("img/Imagen_Fondo.jpg")  center fixed; 
+  background-size:cover;
+}
+.nav_class1{
+    background:#0A5D91;
+    height:30px;
+ }
+ 
+.header_class {
+    font-size:20px;
+    font-weight:100;
+    color:white;
+    text-align: center;
+    background:#4FA7DE;
+}
+
+a:link,a:visited,a:active{
+  color:white;
+  font-size:15px;
+  text-decoration:none;
+  font-weight:bold;
+}
+
+
+a:hover {
+  color: #E5E5E5;
+  text-decoration:none;
+}
+
+
+table, .fila_header, .fila_data {
+  border: 1px solid black;
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  width: 50%;
+}
+
+.fila_header, .fila_data {
+  padding: 9px;
+ 
+}
+
+.fila_header{
+  background-color:#663399;
+  color: white;
+  font-weight:bold;
+}
+
+.fila_data{
+  background-color:#DDA0DD;
+}
+
+fieldset {
+  align-items:center;
+  background-color:#ffffe0;    
+}
+
+.p_style {
+    font-size:large;
+    background-color:#F4F4FF;
+}
+
+.span_style {
+    color:red;
+}
+#usernametag {
+    float:right;
+    font-weight:bold;
+    color: white;
+    height:20px;
+}
+/*-----------------------------Estilo de index.php---------------------------*/
+
+#img_Rotulo {
+   float: right;
+   width: 120px;
+}
+
+#welcome_text {
+    background:#E8E8E9;
+    height:150px;
+    font-family: "Times New Roman", sans-serif;
+    font-size:large;
+}
+
+#index_italic_text {
+    font-style:italic;
+    font-weight:bold;
+}
+
+/*-----------------Footer------------*/
+#footer_index_div {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem; 
+  margin:auto;
+}
+#footer_index{
+    height:100px;
+    background:gray;
+    margin:auto;
+}
+
+#footer_index p{
+    color:white;
+    line-height:30px;
+    font-weight:bold;
+}
+}
